@@ -5,8 +5,8 @@ import (
     "fyne.io/fyne/v2/app"
     "fyne.io/fyne/v2/container"
     "fyne.io/fyne/v2/widget"
-    "github.com/shivangjhalani/remotesync/internal/network"
-    "github.com/shivangjhalani/remotesync/internal/logger"
+    "remotesync/internal/network"
+    "remotesync/internal/logger"
 )
 
 type ClientUI struct {

@@ -3,10 +3,10 @@ package performance
 import (
     "testing"
     "time"
-    "github.com/shivangjhalani/remotesync/internal/screen"
-    "github.com/shivangjhalani/remotesync/internal/network"
-    "github.com/shivangjhalani/remotesync/internal/protocol"
-    "github.com/shivangjhalani/remotesync/internal/testutil"
+    "remotesync/internal/screen"
+    "remotesync/internal/network"
+    "remotesync/internal/protocol"
+    "remotesync/internal/testutil"
 )
 
 func BenchmarkScreenCapture(b *testing.B) {

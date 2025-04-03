@@ -3,9 +3,9 @@ package testing
 import (
     "testing"
     "time"
-    "github.com/shivangjhalani/remotesync/internal/network"
-    "github.com/shivangjhalani/remotesync/internal/session"
-    "github.com/shivangjhalani/remotesync/internal/security"
+    "remotesync/internal/network"
+    "remotesync/internal/session"
+    "remotesync/internal/security"
 )
 
 func TestFullWorkflow(t *testing.T) {

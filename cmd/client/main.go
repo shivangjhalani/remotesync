@@ -3,8 +3,8 @@ package main
 import (
     "flag"
     "time"
-    "github.com/shivangjhalani/remotesync/internal/network"
-    "github.com/shivangjhalani/remotesync/internal/logger"
+    "remotesync/internal/network"
+    "remotesync/internal/logger"
 )
 
 var (

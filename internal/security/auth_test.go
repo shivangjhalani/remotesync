@@ -2,7 +2,7 @@ package security_test
 
 import (
     "testing"
-    "github.com/shivangjhalani/remotesync/internal/security"
+    "remotesync/internal/security"
 )
 
 func TestTokenGeneration(t *testing.T) {

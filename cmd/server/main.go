@@ -3,8 +3,8 @@ package main
 import (
     "fmt"
     "net"
-    "github.com/shivangjhalani/remotesync/internal/network"
-    "github.com/shivangjhalani/remotesync/internal/logger"
+    "remotesync/internal/network"
+    "remotesync/internal/logger"
 )
 
 const (

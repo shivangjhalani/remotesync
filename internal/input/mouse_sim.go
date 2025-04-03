@@ -2,7 +2,7 @@ package input
 
 import (
     "github.com/go-vgo/robotgo"
-    "github.com/shivangjhalani/remotesync/internal/logger"
+    "remotesync/internal/logger"
 )
 
 type MouseSimulator struct {

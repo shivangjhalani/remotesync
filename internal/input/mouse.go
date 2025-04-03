@@ -2,8 +2,8 @@ package input
 
 import (
     "github.com/go-vgo/robotgo"
-    "github.com/shivangjhalani/remotesync/internal/protocol"
-    "github.com/shivangjhalani/remotesync/internal/logger"
+    "remotesync/internal/protocol"
+    "remotesync/internal/logger"
     "image"
 )
 

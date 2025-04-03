@@ -2,7 +2,7 @@ package protocol_test
 
 import (
     "testing"
-    "github.com/shivangjhalani/remotesync/internal/protocol"
+    "remotesync/internal/protocol"
 )
 
 func TestMessageSerialization(t *testing.T) {

@@ -3,7 +3,7 @@ package screen
 import (
     "gocv.io/x/gocv"
     "image"
-    "github.com/shivangjhalani/remotesync/internal/logger"
+    "remotesync/internal/logger"
 )
 
 type QualityLevel int

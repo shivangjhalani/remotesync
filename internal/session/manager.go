@@ -3,9 +3,9 @@ package session
 import (
     "sync"
     "time"
-    "github.com/shivangjhalani/remotesync/internal/logger"
+    "remotesync/internal/logger"
     "fmt"
-    "github.com/shivangjhalani/remotesync/internal/input"
+    "remotesync/internal/input"
     "image"
 )
 

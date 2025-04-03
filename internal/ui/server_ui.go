@@ -5,7 +5,7 @@ import (
     "fyne.io/fyne/v2/app"
     "fyne.io/fyne/v2/container"
     "fyne.io/fyne/v2/widget"
-    "github.com/shivangjhalani/remotesync/internal/network"
+    "remotesync/internal/network"
 )
 
 type ServerUI struct {

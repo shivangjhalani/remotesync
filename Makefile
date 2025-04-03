@@ -3,7 +3,7 @@
 # Build settings
 BINARY_NAME=remotesync
 GO=go
-GOFLAGS=-v
+GOFLAGS=-v -mod=vendor
 VERSION=1.0.0
 
 # Output directories
@@ -18,18 +18,14 @@ build:
 	$(GO) build $(GOFLAGS) -o $(BIN_DIR)/$(BINARY_NAME)-client ./cmd/client
 
 test:
-	$(GO) test -v ./...
-	$(GO) test -bench=. ./internal/performance
-
-dist: build
-	mkdir -p $(DIST_DIR)
-	tar czf $(DIST_DIR)/$(BINARY_NAME)-$(VERSION)-linux-amd64.tar.gz -C $(BIN_DIR) .
-	zip -j $(DIST_DIR)/$(BINARY_NAME)-$(VERSION)-linux-amd64.zip $(BIN_DIR)/*
+	$(GO) test $(GOFLAGS) ./...
 
 clean:
 	rm -rf $(BIN_DIR)
 	rm -rf $(DIST_DIR)
+	rm -rf vendor/
 
 install: build
 	install -d $(DESTDIR)/usr/local/bin/
-	install -m 755
+	install -m 755 $(BIN_DIR)/$(BINARY_NAME)-server $(DESTDIR)/usr/local/bin/
+	install -m 755 $(BIN_DIR)/$(BINARY_NAME)-client $(DESTDIR)/usr/local/bin/

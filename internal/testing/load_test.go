@@ -3,7 +3,7 @@ package testing
 import (
     "testing"
     "sync"
-    "github.com/shivangjhalani/remotesync/internal/network"
+    "remotesync/internal/network"
 )
 
 func TestMultipleConnections(t *testing.T) {

@@ -8,11 +8,11 @@ import (
     "time"
     "crypto/rand"
     "encoding/hex"
-    "github.com/shivangjhalani/remotesync/internal/logger"
-    "github.com/shivangjhalani/remotesync/internal/protocol"
-    "github.com/shivangjhalani/remotesync/internal/session"
-    "github.com/shivangjhalani/remotesync/internal/security"
-    "github.com/shivangjhalani/remotesync/internal/performance"
+    "remotesync/internal/logger"
+    "remotesync/internal/protocol"
+    "remotesync/internal/session"
+    "remotesync/internal/security"
+    "remotesync/internal/performance"
 )
 
 type Server struct {

@@ -5,8 +5,8 @@ import (
     "time"
     "sync"
     "os"
-    "github.com/shivangjhalani/remotesync/internal/logger"
-    "github.com/shivangjhalani/remotesync/internal/protocol"
+    "remotesync/internal/logger"
+    "remotesync/internal/protocol"
 )
 
 type ClientConfig struct {

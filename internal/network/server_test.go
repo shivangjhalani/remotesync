@@ -2,8 +2,8 @@ package network_test
 
 import (
     "testing"
-    "github.com/shivangjhalani/remotesync/internal/network"
-    "github.com/shivangjhalani/remotesync/internal/testutil"
+    "remotesync/internal/network"
+    "remotesync/internal/testutil"
 )
 
 func TestClientRegistration(t *testing.T) {
