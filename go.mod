@@ -3,13 +3,6 @@ module remotesync
 go 1.24.1
 
 require (
-	fyne.io/fyne/v2 v2.5.5
-	github.com/go-vgo/robotgo v0.110.6
-	github.com/golang-jwt/jwt v3.2.2+incompatible
-	gocv.io/x/gocv v0.41.0
-)
-
-require (
 	fyne.io/systray v1.11.0 // indirect
 	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
