@@ -1,10 +1,11 @@
 package input
 
 import (
+    "image"
     "github.com/go-vgo/robotgo"
+    _ "github.com/go-vgo/robotgo/mouse"
     "remotesync/internal/protocol"
     "remotesync/internal/logger"
-    "image"
 )
 
 type MouseEvent struct {

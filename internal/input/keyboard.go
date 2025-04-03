@@ -2,6 +2,7 @@ package input
 
 import (
     "github.com/go-vgo/robotgo"
+    _ "github.com/go-vgo/robotgo/key"
     "remotesync/internal/logger"
 )
 
