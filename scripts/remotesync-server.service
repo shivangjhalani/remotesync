@@ -1,0 +1,12 @@
+[Unit]
+Description=RemoteSync Server
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/remotesync-server
+Restart=always
+User=remotesync
+Group=remotesync
+
+[Install]
+WantedBy=multi-user.target
